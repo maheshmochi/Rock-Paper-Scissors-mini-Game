@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="assests/game.css">
+</head>
+
+<body>
+
+    <h1>Rock Paper Scissors Game</h1>
+    <!-- Dark Mode Button -->
+    <button id="themeToggle">Dark Mode</button>
+
+    <!-- Round Counter -->
+
+    <!-- Game Choices -->
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="assests/rock.png" alt="Rock">
+        </div>
+
+        <div class="choice" id="paper">
+            <img src="assests/paper.png" alt="Paper">
+        </div>
+
+        <div class="choice" id="scissors">
+            <img src="assests/scissors.png" alt="Scissors">
+        </div>
+    </div>
+
+    <!-- Score Board -->
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <!-- Message Area -->
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+        <button class="Restart">Restart Game</button>
+    </div>
+<hr>
+<p style="text-align:center;font-size:12px;color:gray;">
+This is a simple Rock Paper Scissors game made using HTML, CSS, and JavaScript.  
+No personal data is collected, stored, or shared.
+</p>
+
+<footer style="text-align:center;font-size:12px;color:gray;">
+© 2025 Mahesh Mochi | GitHub Pages Demo Project
+</footer>
+
+    <script src="assests/game.js"></script>
+</body>
+
+</html>
